@@ -6,6 +6,7 @@ import { Movies } from './Cinemaworld/movies';
 import { Devara } from './Cinemaworld/Devara';
 import { BookTicket } from './Cinemaworld/booktickets';
 import { Login } from './Cinemaworld/Login';
+import { Pay } from './Cinemaworld/Pay';
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
         <Route path='book' element={<BookTicket/>}/>
 
         </Route>
+        <Route path='pay' element={<Pay/>}></Route>
         <Route path="login" element={<Login/>}/>
         <Route path="*" element={<div><p>Invalid page</p></div>}/>
        
