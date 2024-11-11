@@ -27,7 +27,7 @@ export  function Pay(){
     }
 
     function clickOffer(){
-        setappear('d-block  cursor-pointer')
+        setappear('d-block ')
         setcard('d-none')
     }
 
